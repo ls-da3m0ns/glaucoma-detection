@@ -4,6 +4,8 @@ import random
 import shutil
 import os
 
+
+
 imagePaths = list(paths.list_images(config.orig_input_dataset))
 random.seed(42)
 random.shuffle(imagePaths)
