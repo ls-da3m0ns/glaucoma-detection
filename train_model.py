@@ -1,5 +1,5 @@
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tenorflow.keras.callbacks import LearningRateScheduler
+from keras.preprocessing.image import ImageDataGenerator
+from keras.callbacks import LearningRateScheduler
 from tenorflow.keras.optimizers import SGD
 from cnn.resnet import ResNet
 from cnn import config
